@@ -1,0 +1,7 @@
+nome = str(input("Digite seu nome: "))
+print(f"Nome em maiusculo: ",nome.upper())
+print(f"Nome em minusculo: ", nome.lower())
+print(f"Quantidade de letras no nome: ", len(nome))
+dividir = nome.split()
+print(f"Nome dividido, quantidade de caractere do primeiro nome", len(dividir[0]))
+print(f"Qantidade de caractere sem espacos", len(nome.replace(" ","")))

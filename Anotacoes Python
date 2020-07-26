@@ -1,3 +1,14 @@
+Funcionalidades do PY:
+
+1 - tres aspas simples servem para delimitar comentarios de muitas linhas
+2 - Harshtag delimita comentario com uma unica linha
+
+---------------------------
+Teclado: 
+
+1 - °C
+2 - ¹²³⁴⁵⁶⁷⁸⁹⁰
+---------------------------
 Ordem de precedencia:
 
 1 - Tudo que estiver dentro de parenteses
@@ -6,4 +17,54 @@ Ordem de precedencia:
 4 - subtracao e adicao
 
 ----------------------------
+Importar módulos:
+
+1 - Import math; importará o módulo inteiro
+2 - from math import x; importará um unico objeto do módulo
+3 - from math import x,x,x; importará multiplos objetos
+4 - math.trunc(); mostra a parte inteira do numero
+5 - math.hypot(); calcula a hipotenusa
+6 - math.radians(); Converter para radiando
+
+----------------------------
+Módulo random:
+
+1 - x = random.randint(1,10); Mostra um numero aleatorio entre 1 e 10
+2 - list = [n1, n2, n3, n]; arraylist para guardar valores em lista
+3 - random.choice(list); Escolher um objeto em uma lista
+4 - random.shufflet(list); Embaralhar uma lista
+
+----------------------------
+Fatiamento:
+
+1 - x = INDIANA JONES BINGO; atribuicao de uma variavel string
+2 - print(f"x"); informa a frase completa
+3 - x[4]; mostra somente o caractere da posicao 4
+4 - x[2:6]; mostrara do caractere 2 ao caractere 5 pois o ultmo caractere é excluido
+5 - x[2:6:2]; mostrara um caractere e ignorara 2 caracteres ate o fim da contagem
+6 - x[:5]; mostra todos os caracteres do 0 ao 4 ignorando o ultimo caractere
+7 - x[15:]; mostra todos os caracteres do 15 em diante
+8 - x[3::9]; inicia do caractere 9 e pula 3 caracteres até o fim
+
+----------------------------
+Análise
+
+1 - len(x); informa a quantidade de caractere de uma string
+2 - x.count("o"); conta a quatidade de caractere solicitada.
+3 - x.count("o", 0, 13) conta a quatidade de caractere seguindo o fatiamento
+4 - x.find("deo"); informará a posicao do caractere solicitado se o mesmo existir
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
