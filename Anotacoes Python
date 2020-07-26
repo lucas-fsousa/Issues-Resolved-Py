@@ -1,0 +1,9 @@
+Ordem de precedencia:
+
+1 - Tudo que estiver dentro de parenteses
+2 - Tudo que for potencia
+3 - multiplicacao, divisao, divisao inteire e resto da divisao ( o que for primeiro)
+4 - subtracao e adicao
+
+----------------------------
+
