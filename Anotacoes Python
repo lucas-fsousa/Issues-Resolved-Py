@@ -35,6 +35,11 @@ Módulo random:
 4 - random.shufflet(list); Embaralhar uma lista
 
 ----------------------------
+Módulo time:
+
+1 - Sleep; Faz o computador "dormir"
+
+----------------------------
 Fatiamento:
 
 1 - x = INDIANA JONES BINGO; atribuicao de uma variavel string
@@ -47,16 +52,44 @@ Fatiamento:
 8 - x[3::9]; inicia do caractere 9 e pula 3 caracteres até o fim
 
 ----------------------------
-Análise
+Análise:
 
 1 - len(x); informa a quantidade de caractere de uma string
 2 - x.count("o"); conta a quatidade de caractere solicitada.
 3 - x.count("o", 0, 13) conta a quatidade de caractere seguindo o fatiamento
 4 - x.find("deo"); informará a posicao do caractere solicitado se o mesmo existir
+5 - x.find("adad"); se o valor nao for encontrado, o retorno será -1
+6 - "Type"in x; Verifica se existe determinado conjunto de caractere na string e retorno valor booleano
+7 - x.rfind(" "); Procura a string da direita para a esquerda
 
+----------------------------
+Transformacao:
 
+1 - x.replace("STOP","RUN"); realiza a troca da string STOP pela string RUN!
+2 - x.upper(); Transforma uma string em maiuscula
+3 - x.lower(); Trasnforma uma string em minuscula
+4 - x.capitalize(); Transforma a string em minuscula e mantem apenas a primeira letra maiuscula
+5 - x.title(); Title analisa quantas palavras existem na string e da a primeira letra maiuscula a todas
+6 - x.strip(); remove todos os espacos desnecessarios do inicio e do fim
+7 - x.rstrip(); remove os espacos desnecessarios da direita
+7 - x.lstrip(); remove os espacos desnecessarios da esquerda
 
+----------------------------
+Divisao de string:
 
+1 - x.split(); cria multiplas strings de acordo com os espacos entre as palavras - ex: "Pano" "limpo" "agora"
+
+---------------------------
+Juncao de string:
+
+1 - "-".join(x); Junta todas as palavras separadas utiliando como separador o valor entre aspas.
+
+----------------------------
+Estrutura condicional:
+
+1 - tudo que estiver indento na estrutura sera executado
+2 - Tudo que estiver fora da identacao sera executado
+3 - 
 
 
 
