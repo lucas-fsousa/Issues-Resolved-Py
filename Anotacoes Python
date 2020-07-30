@@ -40,6 +40,11 @@ Módulo time:
 1 - Sleep; Faz o computador "dormir"
 
 ----------------------------
+Módulo datetime:
+
+1 - date.today().year; Pegará o ano atual.
+
+----------------------------
 Fatiamento:
 
 1 - x = INDIANA JONES BINGO; atribuicao de uma variavel string
@@ -89,7 +94,6 @@ Estrutura condicional:
 
 1 - tudo que estiver indento na estrutura sera executado
 2 - Tudo que estiver fora da identacao sera executado
-3 - 
 
 
 
