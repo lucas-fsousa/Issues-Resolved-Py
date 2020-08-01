@@ -2,6 +2,7 @@ Funcionalidades do PY:
 
 1 - tres aspas simples servem para delimitar comentarios de muitas linhas
 2 - Harshtag delimita comentario com uma unica linha
+3 - "{:-ˇ40}".format("")
 
 ---------------------------
 Teclado: 
@@ -94,10 +95,24 @@ Estrutura condicional:
 
 1 - tudo que estiver indento na estrutura sera executado
 2 - Tudo que estiver fora da identacao sera executado
+3 - if; Refere-se ao "SE"
+4 - else; Refere-se ao "SENAO"
+5 - elif; Refere-se ao "SE SENAO"
+6 - or; Significa "OU" dentro do python.
+7 - and; Significa "E" dentro do python.
+8 - in; Significa "EM" dentro do python.
 
+----------------------------
+Conversor de bases:
 
+1 - bin(x); Converte um numero para binario.
+2 - oct(x); Converte um numero para octal.
+3 - hex(x); Converte um numero para Hexadecimal.
 
+---------------------------
+Estrutura de repeticao FOR:
 
+1 - for c in range(n,n): | Esta é a sintaxe do FOR.
 
 
 
