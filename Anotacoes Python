@@ -3,6 +3,7 @@ Funcionalidades do PY:
 1 - tres aspas simples servem para delimitar comentarios de muitas linhas
 2 - Harshtag delimita comentario com uma unica linha
 3 - "{:-ˇ40}".format("")
+4 - \n; quebra a linha
 
 ---------------------------
 Teclado: 
@@ -56,6 +57,7 @@ Fatiamento:
 6 - x[:5]; mostra todos os caracteres do 0 ao 4 ignorando o ultimo caractere
 7 - x[15:]; mostra todos os caracteres do 15 em diante
 8 - x[3::9]; inicia do caractere 9 e pula 3 caracteres até o fim
+9 - x[::-1]; comeca de traz para frente
 
 ----------------------------
 Análise:
@@ -114,6 +116,10 @@ Estrutura de repeticao FOR:
 
 1 - for c in range(n,n): | Esta é a sintaxe do FOR.
 
+----------------------------
+Estrutura de repeticao WHILE:
+
+1 - while cont != cont: | Esta é a sintaxe do WHILE.
 
 
 
