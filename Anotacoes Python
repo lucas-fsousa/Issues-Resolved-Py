@@ -4,6 +4,11 @@ Funcionalidades do PY:
 2 - Harshtag delimita comentario com uma unica linha
 3 - "{:-ˇ40}".format("")
 4 - \n; quebra a linha
+5 - max(x); mostra o maior valor de uma variavel
+6 - min(x); mostra o menor valor de uma variavel
+7 - print(f"{:.<30}"); Alinha o texto a esquerda e preenche os espacos com pontos
+8 - print(f"R${:>7.2f}");  alinha o texto a direita com 2 casas flutuantes
+9 - if letra.lower() in "aeiou":  #Mostrará se existe os caracteres em parenteses.
 
 ---------------------------
 Teclado: 
@@ -120,6 +125,24 @@ Estrutura de repeticao FOR:
 Estrutura de repeticao WHILE:
 
 1 - while cont != cont: | Esta é a sintaxe do WHILE.
+
+------------------------------
+Tuplas:
+
+1 - sorted; O uso do sorted vai dentro de um print para mostar os objetos em ordem.
+2 - Tuplas sao imutaveis. Nao da pra alterar durante a execucao do código.
+3 - As tuplas sao representadas por Parenteses; ("Afemaria", "Jose", "Ana", "Marcelo")
+4 - ==========================================
+	for cont in range(0, len(lanche)):
+	    print(f"Eu vou comer {lanche[cont]} na posicao {cont}"); Mostra a posicao e o lache da vez
+    ==========================================
+5- x = (int(input("n1: "),int(input("n1: "))); Ténica para entrar com multiplos valores em uma tupla
+
+
+
+
+
+
 
 
 
