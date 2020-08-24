@@ -9,12 +9,16 @@ Funcionalidades do PY:
 7 - print(f"{:.<30}"); Alinha o texto a esquerda e preenche os espacos com pontos
 8 - print(f"R${:>7.2f}");  alinha o texto a direita com 2 casas flutuantes
 9 - if letra.lower() in "aeiou":  #Mostrará se existe os caracteres em parenteses.
+10 - : ^15.1f; Texto centralizado com 1 casa flutuante. 
 
 ---------------------------
 Teclado: 
 
 1 - °C
 2 - ¹²³⁴⁵⁶⁷⁸⁹⁰
+3 - ^
+4 - ʽ
+5 - *= -1; Troca o sinal de negativo para positivo 
 ---------------------------
 Ordem de precedencia:
 
@@ -138,9 +142,42 @@ Tuplas:
     ==========================================
 5- x = (int(input("n1: "),int(input("n1: "))); Ténica para entrar com multiplos valores em uma tupla
 
+-------------------------------
+Listas:
+
+x = []
+1 - As listas sao mutaveis.
+2 - As listas sao representadas por colchetes.
+3 - x.append(0); Adiciona um elemento a lista.
+4 - x.sort(); Ordena a lista de forma crescente.
+5 - x.sort(reverse=True); Ordena a lista de forma decrescente
+6 - x.insert(0, 1); O primeiro valor é a posicao de insercao e o segundo valor é o numero a ser inserido na posicao marcada
+7 - x.pop(); Remove o ultimo numero da lista.
+8 - x.pop(2); Remove o numero da posicao 3 de uma lista
+9 - x.remove(2); Faz uma busca crescente e elimina o primeiro dito "2" encontrado
+10 - a = [2,3,4] | b = a[:]; faz com que o B receta todos os itens de A e se somente atribuir B = A criara uma ligacao entre eles
+11 - x.clear(); Deleta tudo de uma lista.
+
+------------------------------
+Dicionários:
+
+1 - Os dicionarios sao representados por chaves.
+2 - x.values(); Rretorna o valor geral do dicionario
+3 - x.keys(); Retorna os titulos de cada item
+4 - x.items(); Retorna os valores e os titulos.
+5 - x.copy(); Metodo para copiar itens em um dicionario com o append.
+6 - sum(); Método para somar os valores de um dicionario
+
+-----------------------------
+Módulo Operator:
+
+1 - from operator import itemgetter; Importa um implemento novo para os dicionarios
+2 - ranking = sorted(jogadores.items(), key=itemgetter(1), reverse=True)
 
 
-
+-----------------------------
+Varredura:
+for i, v in enumerate(x):
 
 
 
