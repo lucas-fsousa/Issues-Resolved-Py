@@ -10,6 +10,7 @@ Funcionalidades do PY:
 8 - print(f"R${:>7.2f}");  alinha o texto a direita com 2 casas flutuantes
 9 - if letra.lower() in "aeiou":  #Mostrará se existe os caracteres em parenteses.
 10 - : ^15.1f; Texto centralizado com 1 casa flutuante. 
+11 - \t; faz uma tabulacao para centralizar valores.
 
 ---------------------------
 Teclado: 
@@ -178,6 +179,21 @@ Módulo Operator:
 -----------------------------
 Varredura:
 for i, v in enumerate(x):
+
+-----------------------------
+Funcoes
+
+1 - 
+"""
+ 	3 Aspas duplas para acrescentar um comentario explicativo na funcao criada.
+"""
+
+2 - def xxx(): Define uma nova funcao personalizada e pode ser incrementada com parametros
+3 - def xxx(x, x, x): Funcao com parametros
+4 - def xxx(a=0, b=0, c=0); Funcao com parametros opcionais, nao existe necessidade de utilizar todos
+5 - global x; Informa ao python que a variavel x será de escopo global.
+6 - return x; Retorna um valor para que seja formatado de maneira livre.
+7 - 
 
 
 
